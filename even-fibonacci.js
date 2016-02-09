@@ -1,13 +1,12 @@
 // Fibonacci number = previous + one before previous
 // Normal Mode
 
-var i;
 var sum = 0;
 var curVal = 0;
 var maxVal = 4000000;
 var fSeq = [0, 1];
 
-for(i=2; curVal < maxVal; i++) {
+for(var i = 2; curVal < maxVal; i++) {
     fSeq[i] = fSeq[i-2] + fSeq[i-1];
     if (fSeq[i] % 2 === 0) {
         sum = sum + fSeq[i];

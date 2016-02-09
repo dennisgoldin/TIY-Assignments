@@ -7,7 +7,7 @@ for(var i = 1; i < maxVal; i++) {
     if ( i % 3 === 0 || i % 5 === 0 ) {
         sum = sum + i;
         count++;
-        // console.log(i + "\n");
+        //console.log(i + "\n");
     }
 }
 console.log("\nTotal numbers of 3 or 5 mutiples below " + maxVal + ": " + count);
