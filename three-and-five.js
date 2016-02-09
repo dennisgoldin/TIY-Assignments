@@ -11,5 +11,5 @@ for(var i = 1; i < maxVal; i++) {
         // console.log(i + "\n");
     }
 }
-console.log("\nTotal numbers of 3 and 5 mutiples below " + maxVal + ": " + count);
+console.log("\nTotal numbers of 3 and/or 5 mutiples below " + maxVal + ": " + count);
 console.log("Sum of all the mutiples of 3 and 5 less than " + maxVal + " = " + sum);

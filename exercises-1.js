@@ -123,8 +123,17 @@ console.log(array1.filter(isBig));
 
 // .map()
 
-var array1 = [ 16, 25, 81 ];
+var array1 = [ 0, 16, 25, 81 ];
 console.log(array1);
 
 var array2 = array1.map(Math.sqrt);
 console.log(array2);
+
+function half(val) {
+    return val/2;
+}
+
+var array3 = array1.map(half);
+console.log(array3);
+
+console.log([ 0, 16, 25, 81 ].map(function offSet(val){return val-2;}));
