@@ -1,6 +1,5 @@
 // Fibonacci number = previous + one before previous
 // Normal Mode
-
 var sum = 0;
 var curVal = 0;
 var maxVal = 4000000;
