@@ -1,10 +1,11 @@
 // code challenge
+
 function calculateSupply (myAge, myDailyAmount) {
     var myMaxAge = 65;  // constant
     // console.log(myMaxAge);
     var myTimeSpan = myMaxAge - myAge;
     // console.log(myTimeSpan);
-    var myTotalAmount = myTimeSpan * myDailyAmount;
+    var myTotalAmount = myTimeSpan * myDailyAmount * 365;
     console.log("You will need " + myTotalAmount + " snacks to last you until the ripe old age of " + myMaxAge + ".");
 }
 
