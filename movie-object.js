@@ -21,3 +21,26 @@ function printMovie(myObject) {
 }
 
 printMovie(movie);
+
+// finished answer below -- not part of inital push
+// var movie = { title: "Last Air Bender",
+//               duration: 121,
+//               stars: ["Little Boy", "Little Girl", "Older Boy"]
+//             };
+//
+// function printMovie(myObject) {
+//     var myOutput = "";
+//     myOutput = myObject.title + " last for " + myObject.duration + " minutes.  Stars: ";
+//     for (var i = 0; i < myObject.stars.length; i++) {
+//         myOutput = myOutput + " " + myObject.stars[i];
+//         if(i === myObject.stars.length - 1) {
+//             myOutput = myOutput + ".";
+//          }
+//         else {
+//             myOutput = myOutput + ",";
+//         }
+//     }
+//     console.log(myOutput);
+// }
+//
+// printMovie(movie);
