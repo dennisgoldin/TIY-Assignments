@@ -1,4 +1,4 @@
-
+// vanilla JavaScript
 function pluralize (num, str) {
 
     if (num > 1) {
