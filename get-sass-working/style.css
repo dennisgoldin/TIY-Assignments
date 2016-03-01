@@ -1,0 +1,24 @@
+body {
+  margin: 5%;
+  color: #FFF;
+  background: steelblue; }
+
+.main-container, p {
+  width: 50%;
+  margin: 5%; }
+
+p {
+  font-weight: bold;
+  font-family: Courier;
+  font-size: 1.5em; }
+
+h1 {
+  font-size: 36px; }
+
+h2 {
+  font-size: 32px; }
+
+h3 {
+  font-size: 28px; }
+
+/*# sourceMappingURL=style.css.map */

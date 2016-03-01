@@ -1,0 +1,33 @@
+$bg-color:  steelblue;
+$color: #FFF;
+
+
+@mixin margin-value {
+  body {
+    @content;
+    color: $color;
+    background: $bg-color;
+  }
+
+  .main-container {
+    width: 50%;
+    @content;
+  }
+}
+
+@include margin-value {
+  margin: 5%;
+}
+
+p  {
+  @extend .main-container;
+    font: {
+      weight: bold;
+      family: Courier;
+      size: 1.5em;
+  }
+}
+
+@for $i from 1 through 3 {
+  h#{$i} { font-size: 40px - 4px * $i; }
+}
