@@ -11,3 +11,8 @@ function countTags(str) {
 }
 
 countTags('p');
+
+
+// can use $.find()
+// can use getElementbyXXXXX()
+// can use $("xxxx")
