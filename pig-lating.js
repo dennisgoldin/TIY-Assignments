@@ -21,3 +21,4 @@ function pigLatin(str) {
     }
 
 }
+pigLatin("axxx quxxx txxx cat");
