@@ -10,5 +10,6 @@ function longestCountryName(arr) {
     return longestName;
 }
 
+
 console.log(longestCountryName(["Germany", "Australia", "United States of America"]));
 console.log(longestCountryName(["Germany", "Australia", "Switzerland"]));
