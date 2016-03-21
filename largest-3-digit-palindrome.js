@@ -1,6 +1,6 @@
 // code challenge 3-21-2016
 // HAD NO CLUE ON THIS CHALLENGE
-// FOLLOWING ANSWER IS FROM LINK:
+// FOLLOWING ANSWER IS NOT MINE AND IS FROM URL:
 // http://stackoverflow.com/questions/21286890/find-the-largest-palindrome-made-from-the-product-of-two-3-digit-numbers-javas
 
 function largestPalindrome(){
