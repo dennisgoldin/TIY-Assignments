@@ -6,10 +6,10 @@
 function largestPalindrome(){
 
     var arr = [];
-    for(var i =999; i>100; i--){
-        for(var j = 999; j>100; j--){
-            var mul = j*i;
-            if(isPalin(mul)){
+    for(var i = 999; i > 100; i--){
+        for(var j = 999; j > 100; j--){
+            var product = j*i;
+            if(isPalin(product)){
                 arr.push(j * i);
             }
         }
