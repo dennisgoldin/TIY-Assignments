@@ -1,7 +1,7 @@
-###How do I make API requests?
---
+##How do I make API requests?
+
 ####What is the base URL for all requests?
-https://openapi.etsy.com/v2w
+  https://openapi.etsy.com/v2w
 
 ####Are there any headers or query parameters required?
   API requests must use HTTPS, HTTP requests will result in 400 Bad Request responses. Also, an api_key is required.  For example: https://openapi.etsy.com/v2/users/etsystore?api_key=your_api_key
@@ -34,8 +34,8 @@ Example response for: https://openapi.etsy.com/v2/users/etsystore?api_key=your_a
     "type": "User"
     }
 
-###How does the API handle authentication?
---
+##How does the API handle authentication?
+
 ####Do I need to authenticate? with user credentials?
   The Etsy API requires an application key that is provided during app registration. The key identifies your application to the Etsy web service, and is used to track overall call usage. It's passed using the standard api_key parameter. For write access and for accessing private user data, an OAuth access token is required. Your application key is required to start the OAuth authentication process. New users register an application and receive a provisional API key upon signup. These keys have full access to resources in the Etsy API, however they are restricted to allow authentication only for the user who registered the application.
 
@@ -53,8 +53,8 @@ Example response for: https://openapi.etsy.com/v2/users/etsystore?api_key=your_a
 
   In addition, a proprietary extension to the OAuth protocol called "permission scopes" allows apps to be more specific about the operations they intend to perform against an Etsy member's account. This means that apps that, for instance, only intend to look at a member's sales history and not upload or change the member's listings, can request only the permissions they intend to use. This protects the member's account against abuse.
 
-###What Resource in the API represents...
---
+##What Resource in the API represents...
+
 ####an individual product?
   resource => Listings, method => getListing, URI => /listings/:listing_id
 
@@ -67,14 +67,15 @@ Example response for: https://openapi.etsy.com/v2/users/etsystore?api_key=your_a
 ####sizes and colors for a product?
   resource => Listings, method => getListing, URI => /listings/:listing_id?fields=color,item_length,item_width,item_height
 
-###What actions and endpoints exist for each of these Resources? What parameters do each endpoint require or accept? What fields are returned for each Resource, specifically:
---
-####an individual product?
-https://www.etsy.com/developers/documentation/reference/listing#method_getlisting
+##What actions and endpoints exist for each of these Resources? What parameters do each endpoint require or accept? What fields are returned for each Resource, specifically:
 
-####a group or collection of products? https://www.etsy.com/developers/documentation/reference/listing#method_findalllistingactive  
+####an individual product?
+  https://www.etsy.com/developers/documentation/reference/listing#method_getlisting
+
+####a group or collection of products?   
+  https://www.etsy.com/developers/documentation/reference/listing#method_findalllistingactive  
 
 ####What additional fields can be requested for each?
-See the repsective links above
+  See the repsective links above
 
 
